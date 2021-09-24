@@ -15,9 +15,9 @@ public class Jumbles {
 //			System.out.println(e  + " ");
 //		}
 		
-//		int ch = 'd' - 'a'; //index -> 3
-//		ch = 'a' - 'a'; // index -> 0
-//		ch = 'c' - 'a'; //index -> 2
+//		int a = 'd' - 'a'; //index -> 3
+//		a = 'a' - 'a'; // index -> 0
+//		a = 'c' - 'a'; //index -> 2
 //		System.out.println(a);
 		
 //	    char c = 'z';

@@ -20,7 +20,7 @@ public class NFactorial {
 		return myAns;
 //		return n * factorial(n - 1);
 	}
-	//my work while building stack
+	
 	private static int factorial2(int n, int ans) {
 		// TODO Auto-generated method stub
 

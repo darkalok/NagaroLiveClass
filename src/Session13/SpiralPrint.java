@@ -12,7 +12,7 @@ public class SpiralPrint {
 		
 		int n = arr.length; //rows
 		int m = arr[0].length;//cols
-
+		
 		int sr = 0;
 		int sc = 0;
 		int er = n - 1;
@@ -26,13 +26,13 @@ public class SpiralPrint {
 				count++;
 			}
 			sr++;
-
+			
 			//col is fixed with value ec
 			for(int row = sr; row <= er; row++) {
 				System.out.print(arr[row][ec] + " ");
 				count++;
 			}
-
+			
 			ec--;
 			//row is fixed with value er
 			for(int col = ec; col >= sc; col--) {
@@ -40,16 +40,16 @@ public class SpiralPrint {
 				count++;
 			}
 			er--;
-
+			
 			//col fixed -> sc
 			for(int row = er; row >= sr; row--) {
 				System.out.print(arr[row][sc] + " ");
 				count++;
 			}
-
+			
 			sc++;
 		}
-
+		
 	}
 
 }
